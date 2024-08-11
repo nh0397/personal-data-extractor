@@ -114,8 +114,6 @@ python_env/
 # Ignore compiled files and wheels
 *.whl
 
-# Ignore specific folders
-resources/
 
 # Ignore generated JSON data
 final_data.json

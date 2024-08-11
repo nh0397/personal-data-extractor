@@ -1,4 +1,4 @@
-# RAG-Personal Data Extractor
+# Personal Data Extractor
 
 This project is designed to automate the extraction of personal data from LinkedIn profiles, GitHub repositories, and resumes, and then generate a structured JSON file with the extracted information. 
 
@@ -49,6 +49,11 @@ LINKEDIN_URL=https://www.linkedin.com/in/your-profile-url/
 - Replace your_password with your LinkedIn password.
 - Replace your_github_access_token with your GitHub Personal Access Token.
 - Replace https://www.linkedin.com/in/your-profile-url/ with your LinkedIn profile URL.
+
+### Add Your Resume
+
+Place your resume file named `Resume.pdf` in the `./resources/` directory of the project. This file will be used for resume parsing.
+
 
 ## Running the Project
 
