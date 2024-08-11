@@ -1,0 +1,138 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Env variable files
+.env
+
+# Virtualenv
+.virtualenv
+
+# Pyre type checker
+.pyre/
+
+# Pytest
+.cache/
+.pytest_cache/
+
+# Coverages
+.coverage
+*.cover
+.hypothesis/
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.coveragerc
+*.py,cover
+.tox/
+coverage/
+nosetests.xml
+,coverage
+.cache
+.pytest_cache
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Static and dynamic analysis tools
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.spyderproject
+.spyproject
+
+# Local python environment
+python_env/
+
+# macOS specific
+.DS_Store
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite3
+
+# Ignore PDF outputs and other generated files
+*.pdf
+
+# Ignore compiled files and wheels
+*.whl
+
+# Ignore specific folders
+resources/
+
+# Ignore generated JSON data
+final_data.json
+
+# Ignore LinkedIn PDF output
+linkedin_profile.pdf
+
+# Ignore GitHub API token (from environment)
+github_token.txt
+
+# Ignore pytest cache
+.pytest_cache/
+
+# Ignore build artifacts
+build/
+dist/
+*.egg-info/
+
+# Miscellaneous
+*.swp
