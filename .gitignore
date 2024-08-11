@@ -134,3 +134,11 @@ dist/
 
 # Miscellaneous
 *.swp
+
+
+linkedin_profile_data.json
+myenv/Scripts/convert-caffe2-to-onnx.exe
+myenv/Scripts/convert-onnx-to-caffe2.exe
+myenv/Scripts/isympy.exe
+myenv/Scripts/torchrun.exe
+myenv/share/
