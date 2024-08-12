@@ -143,3 +143,5 @@ myenv/Scripts/isympy.exe
 myenv/Scripts/torchrun.exe
 myenv/share/
 myenv
+
+flask_session/
