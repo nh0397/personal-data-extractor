@@ -44,11 +44,23 @@ LINKEDIN_EMAIL=your_email@example.com
 LINKEDIN_PASSWORD=your_password
 GITHUB_ACCESS_TOKEN=your_github_access_token
 LINKEDIN_URL=https://www.linkedin.com/in/your-profile-url/
+GOOGLE_API_KEY=your_google_api_key
+MONGO_URI=your_mongodb_uri
+MONGO_DB_NAME=your_database_name
+MONGO_CL_NAME=your_collection_name
+USER_NAME=your_name
+USER_EMAIL=your_email
 ```
-- Replace your_email@example.com with your LinkedIn email.
-- Replace your_password with your LinkedIn password.
-- Replace your_github_access_token with your GitHub Personal Access Token.
-- Replace https://www.linkedin.com/in/your-profile-url/ with your LinkedIn profile URL.
+- Replace `your_email@example.com` with your LinkedIn email.
+- Replace `your_password` with your LinkedIn password.
+- Replace `your_github_access_token` with your GitHub Personal Access Token.
+- Replace `https://www.linkedin.com/in/your-profile-url/` with your LinkedIn profile URL.
+- Replace `your_google_api_key` with your Google API key.
+- Replace `your_mongodb_uri` with your MongoDB connection string.
+- Replace `your_database_name` with your MongoDB database name.
+- Replace `your_collection_name` with your MongoDB collection name for basic details.
+- Replace `your_name` with your name.
+- Replace `your_email` with your email.
 
 ### Add Your Resume
 
@@ -101,6 +113,12 @@ LinkedIn Scraping Issues:
 PDF Extraction Issues:
 
 - Ensure that the pymupdf package is installed correctly and that your resume file is located in the ./resources/ directory.
+
+MongoDB Connection Issues:
+
+- Ensure that your MongoDB connection string (`MONGO_URI`) is correct and includes the proper username and password.
+- Verify that the user has the necessary permissions to access the database and collections.
+- Check MongoDB logs for more detailed error messages if authentication fails.
 
 ## Contributing
 
