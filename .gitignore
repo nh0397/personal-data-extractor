@@ -142,3 +142,4 @@ myenv/Scripts/convert-onnx-to-caffe2.exe
 myenv/Scripts/isympy.exe
 myenv/Scripts/torchrun.exe
 myenv/share/
+myenv
