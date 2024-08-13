@@ -145,3 +145,4 @@ myenv/share/
 myenv
 
 flask_session/
+.vercel

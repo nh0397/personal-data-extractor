@@ -136,7 +136,7 @@ def chat():
         combined_texts = "\n".join(similar_texts)
 
         # Prepare the prompt using the context-specific information
-        prompt = f"{context}\nYou are Naisarg's AI assistant and I need you to understand the following information: \n{combined_texts}\n\nNow the user wants a crisp answer for the following question: {message}"
+        prompt = f"{context}\nYou are Naisarg's AI assistant and I need you to understand the following information: \n{combined_texts}\n\nNow the user wants a crisp answer for the following question: {message}. So please answer in first person."
 
     else:
         # For casual or non-specific conversations, prompt without vector search
