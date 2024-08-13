@@ -1,0 +1,19 @@
+# Ignore Python cache directories
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore virtual environments
+venv/
+.env/
+
+# Ignore Git and Node modules
+.git/
+node_modules/
+
+# Ignore log files and temp files
+*.log
+*.tmp
+
+# Ignore test files
+tests/
